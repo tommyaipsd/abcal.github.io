@@ -19,7 +19,7 @@ const nextConfig = {
   output: 'export',
   trailingSlash: true,
   // GitHub Pages specific config
-  basePath: process.env.NODE_ENV === 'production' ? 'abcal.github.io/' : '',
+  basePath: process.env.NODE_ENV === 'production' ? '/abcal.github.io' : '',
   assetPrefix: process.env.NODE_ENV === 'production' ? '/abcal/' : '',
 }
 
